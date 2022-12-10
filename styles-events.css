@@ -1,0 +1,158 @@
+html {
+	overflow-y: scroll;
+}
+
+#wrapper > h1{
+	color: white;
+	text-shadow: 1px 1px 5px black;
+	text-align: center;
+	font-size: 70px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 10%;
+}
+a {
+	outline: none;
+	text-decoration: none;
+}
+
+#header {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	width: 100%;
+	margin: 0;
+	padding: 20px 0;
+}
+#hgroup {
+	width: auto;
+	margin: 0 0 20px 0;
+}
+
+#header #hgroup h1{
+    font-size: 36px;
+}
+    
+#header #hgroup h2 {
+    font-size: 13px;
+}
+    
+#header form {
+    display: block;
+    width: 290px;
+    float: right;
+    margin: 20px 0;
+    padding: 0;
+}
+    
+ 
+#header form input {
+    display: flex;
+    float: left;
+    width: 200px;
+    margin: 0;
+    padding: 5px;
+    color: #C0BAB6;
+    background-color: #232323;
+    border: 1px solid #666666;
+}
+    
+#header form #sf_submit {
+    display: block;
+    float: right;
+    width: 70px;
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    background-color: #FF9900;
+    border: none;
+    cursor: pointer;
+}
+    
+#header nav {
+    display: block;
+    margin: 0;
+    padding: 20px 0;
+    color: #C0BAB6;
+    background-color: #232323;
+    clear: both;
+}
+    
+#header nav ul {
+    padding: 0 20px;
+}
+    
+#header nav li {
+    display: inline;
+    margin-right: 25px;
+    text-transform: uppercase;
+}
+    
+#header nav li.last {
+    margin-right: 0;
+}
+    
+#header nav li a {
+    color: #C0BAB6;
+    background-color: #232323;
+}
+    
+#header nav li a:hover {
+    color: #FF9900;
+    background-color: #232323;
+}
+h1,h2{
+	margin: 0;
+	padding: 0;
+	font-size: 22px;
+	font-weight: normal;
+	font-style: italic;
+	line-height: normal;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	color: #919191;
+	background-color: #232323;
+}
+.col{
+    display: flex;
+    text-align: center;
+    flex-direction: row;
+    justify-content: center;
+}
+.ig{
+    width: 5%;
+    margin-right: 5em;
+}
+.igs{
+    width: 5%;
+    margin-right: 10em;
+}
+.col > h2{
+    text-align: center;
+}
+.entete{
+    padding: 2em;
+}
+.nomination{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 10%;
+}
+
+#footer {
+	padding: 20px 0;
+}
+
+#footer p {
+	margin: 0;
+	padding: 0;
+}
+
+.full {
+	width: 100%;
+}

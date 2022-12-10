@@ -1,0 +1,298 @@
+html {
+	overflow-y: scroll;
+}
+#wrapper{
+	height: 100vh;
+	width: 100%;
+	background-image: url('images/denzel-washington.jpg');
+	background-size: cover;	
+	position: relative;
+
+}
+#wrapper > h1{
+	color: white;
+	text-shadow: 1px 1px 5px black;
+	text-align: center;
+	font-size: 70px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 10%;
+
+}
+#intro {
+	display: flex;
+	flex-direction: row;
+	max-height: 100vh;
+}
+.clear {
+	overflow: hidden;
+}
+.clear > img {
+	opacity: 0;
+	position: absolute;
+	object-fit: contain;
+	margin-left: 8em;
+	width: 25vh;
+	transition: 3s;
+}
+.clear > img:nth-child(1) {
+	animation: multi-image 22s linear infinite both;
+}
+.clear > img:nth-child(2) {
+	animation-delay: 7.5s;
+	animation: multi-image 15s linear infinite both;
+}
+.clear > img:nth-child(3) {
+	animation-delay: 15s;
+	animation: multi-image 7.5s linear infinite both;
+}
+
+.intro > div {
+	display: flex;
+    flex-direction: wrap;
+    justify-content: center;
+	width: 100%;
+	margin-bottom: 5vh;
+    
+}
+.intro > div > * {
+	width: 30%;
+}
+.mon-site{
+	display: flex;
+	flex-direction: column;
+}
+
+
+
+.homepage1 > img{
+	margin-right: 15vh;
+	margin-left: 4vh;
+	width: 25%;
+
+}
+.homepage2{
+	width: 100%;
+}
+.homepage2 > img {
+	margin-right: 2em;
+}
+.intro{
+	margin-top: 3em;
+}
+body {
+	margin: 0;
+	padding: 0;
+	color: #919191;
+	background-color: #232323;
+}
+
+
+a {
+	outline: none;
+	text-decoration: none;
+}
+
+
+
+address,
+article,
+aside,
+figcaption,
+figure,
+footer,
+header,
+nav,
+section {
+	display: block;
+	margin: 0;
+	padding: 0;
+}
+
+
+div.wrapper {
+	display: block;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	text-align: left;
+}
+
+.row1,
+.row1 a {
+	color: #C0BAB6;
+	background-color: #333333;
+}
+
+.row2 {
+	color: #979797;
+	background-color: #FFFFFF;
+}
+
+.row2 a {
+	color: #FF9900;
+	background-color: #FFFFFF;
+}
+
+.row3,
+.row3 a {
+	color: #919191;
+	background-color: #232323;
+}
+
+
+#header,
+#container,
+#footer {
+	display: block;
+	width: 960px;
+	margin: 0 auto;
+}
+
+nav ul {
+	margin: 0;
+	padding: 0;
+	width: auto;
+	list-style: none;
+}
+
+h1,h2{
+	margin: 0;
+	padding: 0;
+	font-size: 22px;
+	font-weight: normal;
+	font-style: italic;
+	line-height: normal;
+}
+
+
+#header {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	width: 100%;
+	margin: 0;
+	padding: 20px 0;
+}
+
+#hgroup {
+	width: auto;
+	margin: 0 0 20px 0;
+}
+
+#hgroup {
+	font-weight: normal;
+	font-style: normal;
+	text-transform: none;
+}
+
+.entete {
+	text-align: center;
+}
+.entete > h2{
+	font-size: 40px;
+}
+.entete > p {
+	font-size: 26px;
+}
+
+#header #hgroup h1 {
+	font-size: 36px;
+}
+
+#header #hgroup h2 {
+	font-size: 13px;
+}
+
+#header form {
+	display: block;
+	width: 290px;
+	float: right;
+	margin: 20px 0;
+	padding: 0;
+}
+
+#header form input {
+	display: flex;
+	float: left;
+	width: 200px;
+	margin: 0;
+	padding: 5px;
+	color: #C0BAB6;
+	background-color: #232323;
+	border: 1px solid #666666;
+}
+
+#header form #sf_submit {
+	display: block;
+	float: right;
+	width: 70px;
+	font-size: 12px;
+	font-weight: bold;
+	text-transform: uppercase;
+	color: #FFFFFF;
+	background-color: #FF9900;
+	border: none;
+	cursor: pointer;
+}
+
+#header nav {
+	display: block;
+	margin: 0;
+	padding: 20px 0;
+	color: #C0BAB6;
+	background-color: #232323;
+	clear: both;
+}
+
+#header nav ul {
+	padding: 0 20px;
+}
+
+#header nav li {
+	display: inline;
+	margin-right: 25px;
+	text-transform: uppercase;
+}
+
+#header nav li.last {
+	margin-right: 0;
+}
+
+#header nav li a {
+	color: #C0BAB6;
+	background-color: #232323;
+}
+
+#header nav li a:hover {
+	color: #FF9900;
+	background-color: #232323;
+}
+
+
+
+
+#footer {
+	padding: 20px 0;
+}
+
+#footer p {
+	margin: 0;
+	padding: 0;
+}
+
+.full {
+	width: 100%;
+}
+
+@keyframes multi-image {
+	0% {
+		opacity: 0;
+	}
+	50% {
+		opacity: 1;
+	}
+	100% {
+		opacity: 0;
+	}
+}
